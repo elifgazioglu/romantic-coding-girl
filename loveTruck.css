@@ -5,7 +5,7 @@ body
   align-items: center;
   height: 100vh;
   position: relative;
-  background-color: rgb(255, 239, 255);
+  background-color: #F8E2CF;
 }
 
 .truck-container{
@@ -310,5 +310,3 @@ body
   height:80px;
   top:-72px;
 }
-
-
