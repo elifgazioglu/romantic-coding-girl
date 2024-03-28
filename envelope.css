@@ -28,8 +28,8 @@ body {
     height: 121px;
     position: relative;
     border-radius: 4px;
-    border: 2px solid #00000024;
-    background-color: rgb(254, 168, 182);
+    border: 2px solid rgb(254, 168, 182);
+    background-color: #EEEEEE;
   }
   .envelope__tab {
     left: 28px;
@@ -40,8 +40,8 @@ body {
     position: absolute;
     transform: rotateZ(45deg);
     border-top-left-radius: 30px;
-    background-color: pink;
-    border: 2px solid #00000024;
+    background-color:#e88f8f;
+    border: 2px solid #c2494924;
   }
   .envelope__letter {
     left: 29px;
@@ -57,14 +57,14 @@ body {
     position: absolute;
     box-sizing: border-box;
     background-size: cover;
-    color: #a59090;
+    color: #1f0505;
     border: 1px solid #00000024;
     transition: all 0.6s linear 0.4s;
-    background-image: url("https://i.pinimg.com/564x/bd/27/23/bd2723cccfec31aeb82b41034fdd2933.jpg");
+    background-image: url("/romantic-coding-girl-main/95d0b98c-68bb-44e7-afbe-3a1b40f5f345.jpeg");
   }
   .envelope:hover .envelope__letter {
     height: 200px;
-    color: #4c4444;
+    color: #c35151;
   }
 
   .envelope__letter:before {
@@ -75,9 +75,9 @@ body {
     bottom: -17px;
     position: absolute;
     border-top: 56px solid transparent;
-    border-left: 107px solid pink;
-    border-right: 107px solid pink;
-    border-bottom: 65px solid rgb(255, 174, 187);
+    border-left: 107px solid #FF6969;
+    border-right: 107px solid #141e46;
+    border-bottom: 65px solid #C70039;
   }
   @keyframes tremble {
     0% {
